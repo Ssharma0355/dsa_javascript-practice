@@ -9,7 +9,7 @@ let data = [23,22,43,5,6,4,3,2,4,5,12];
 document.write(data);
 function getElement(){
      let el = document.getElementById('element').value;
-   if(el<data.length && typeof parseInt(el)==num)//checks that number is not more the length of array and is element is number or not
+   if(el<data.length && typeof parseInt(el)=="number"  && el >= 0)//checks that number is not more the length of array and is element is number or not
    {
        alert(data[el]);//gives alert if element 
    }
