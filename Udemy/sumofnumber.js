@@ -4,7 +4,6 @@ function sumOfn(n){
         total=total+i;
     }
     return console.log(total);
-
 }
 sumOfn(12);
 
