@@ -1,5 +1,5 @@
 // Write a funtion name Same and it should return true if the every value of array1 have has square in array2 with same frequency.
-
+//O(n^2) time complexity
 arr1 = [1, 2, 3, 2];
 arr2 = [9, 1, 4, 4];
 
