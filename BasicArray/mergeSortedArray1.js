@@ -18,3 +18,8 @@ function mergeSortedArray(arr1,arr2){
 
     return result.concat(arr1,arr2);
 }
+
+// 2nd approach but not effienct
+function mergeSortedArray(arr1,arr2){
+    return[...arr1,...arr2].sort((a,b)=>a-b);
+}
